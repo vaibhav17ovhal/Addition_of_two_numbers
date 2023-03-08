@@ -1,16 +1,17 @@
 ﻿using System;
 
-namespace Addition_of_two_numbers
-{
-    class Program //entry point of application
+namespace Testproject;
+
+    public class Addition
     {
         static void Main(string[] args)
         {
-            int x = 15;
-            int y = 10;
-            int sum = x + y;
-            Console.WriteLine(sum);
-            Console.WriteLine("Hello World!")
+        Console.WriteLine("Enter the first Number: ");
+        int first_num = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter the second Number: ");
+        int second_num = Convert.ToInt32(Console.ReadLine());
+        int final_number = first_num + second_num;
+        Console.WriteLine("The Addition of two numbers:- " + final_number);
         }
     }
-}
+
